@@ -1,3 +1,4 @@
+
 CREATE DATABASE store;
 CREATE TABLE countries(
 code int PRIMARY KEY,
