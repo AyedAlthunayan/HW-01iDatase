@@ -1,4 +1,4 @@
-
+##
 CREATE DATABASE store;
 CREATE TABLE countries(
 code int PRIMARY KEY,
@@ -18,7 +18,7 @@ create table users(
 CREATE TABLE orddrs(
 id int PRIMARY KEY,
  user_id int ,
-  status varchar(6) check( 'finsh' or 'start'),
+  status varchar(6) check( 'start' or 'finish'),
   foreign key (user_id) references users(id)
 );
 CREATE TABLE order_product(
